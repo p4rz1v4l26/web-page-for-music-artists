@@ -1,13 +1,13 @@
 const youtubeApi =
   "https://youtube-v31.p.rapidapi.com/search?channelId=UCeLHszkByNZtPKcaVXOCOQQ&part=snippet%2Cid&order=date&maxResults=10";
 const spotifyApi =
-  "https://spotify23.p.rapidapi.com/artist_albums/?id=246dkjvS1zLTtiykXe5h60&offset=0&limit=8";
+'https://spotify23.p.rapidapi.com/artist_albums/?id=246dkjvS1zLTtiykXe5h60&offset=0&limit=100';
 const singlesApi =
   "https://spotify23.p.rapidapi.com/artist_singles/?id=246dkjvS1zLTtiykXe5h60&offset=0&limit=20";
 
-const contentVideos = null || document.getElementById("content-videos"); //Access to html element
-const contentAlbums = null || document.getElementById("content-albums"); //Access to html element
-const contentSingles = null || document.getElementById("content-singles"); //Access to html element
+const contentVideos = null || document.getElementById("content-videos"); 
+const contentAlbums = null || document.getElementById("content-albums"); 
+const contentSingles = null || document.getElementById("content-singles"); 
 
 const youtubeOptions = {
   method: "GET",
