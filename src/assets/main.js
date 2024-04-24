@@ -1,7 +1,7 @@
 const youtubeApi =
   "https://youtube-v31.p.rapidapi.com/search?channelId=UCeLHszkByNZtPKcaVXOCOQQ&part=snippet%2Cid&order=date&maxResults=10";
 const spotifyApi =
-'https://spotify23.p.rapidapi.com/artist_albums/?id=246dkjvS1zLTtiykXe5h60&offset=0&limit=100';
+'https://spotify23.p.rapidapi.com/artist_albums/?id=246dkjvS1zLTtiykXe5h60&offset=0&limit=8';
 const singlesApi =
   "https://spotify23.p.rapidapi.com/artist_singles/?id=246dkjvS1zLTtiykXe5h60&offset=0&limit=20";
 
