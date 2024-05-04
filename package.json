@@ -1,7 +1,7 @@
 {
   "name": "async-landing",
   "version": "1.0.0",
-  "description": "Landing page as part of Asynchronism JS Course from Platzi.",
+  "description": "Landing page for frontend Project.",
   "main": "index.js",
   "scripts": {
     "deploy": "gh-pages -d src"
