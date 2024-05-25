@@ -11,7 +11,7 @@ const contentSingles = null || document.getElementById("content-singles");
 
 const youtubeOptions = {
   method: "GET",
-  headers: {
+  headers: {  
     "X-RapidAPI-Key": "32e125e9e5msh4b5c68ddae731fcp150c11jsn6c7cdad207e0",
     "X-RapidAPI-Host": "youtube-v31.p.rapidapi.com",
   },
